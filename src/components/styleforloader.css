@@ -1,0 +1,31 @@
+.loader {
+    width: 45px;
+    height: 40px;
+    background: linear-gradient(#26252500 calc(1*100%/6),#312f2e 0 calc(3*100%/6),#70bf2f00 0), linear-gradient(#a21b1b00 calc(2*100%/6),#000000cc 0 calc(4*100%/6),#00000000 0), linear-gradient(#0000 calc(3*100%/6),#060606 0 calc(5*100%/6),#0000 0);
+    background-size: 10px 400%;
+    background-repeat: no-repeat;
+    animation: matrix 1s infinite linear;
+  }
+
+  /* .main-div
+  {
+    margin:0px;
+    width:100vw;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+
+  } */
+  
+  @keyframes matrix {
+    0% {
+      background-position: 0% 100%, 50% 100%, 100% 100%
+    }
+  
+    100% {
+      background-position: 0% 0%, 50% 0%, 100% 0%
+    }
+  }
+      
